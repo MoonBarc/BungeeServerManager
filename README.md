@@ -1,3 +1,6 @@
+### what on earth is this fork?
+i didn't like the bungeecord config updating feature so i just deleted it
+
 # BungeeServerManager
 Add, remove, and edit servers without restarting BungeeCord!
 
