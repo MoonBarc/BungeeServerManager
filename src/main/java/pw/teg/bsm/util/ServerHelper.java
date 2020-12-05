@@ -22,7 +22,6 @@ public class ServerHelper {
         }
 
         getServers().put(serverInfo.getName(), serverInfo);
-        ConfigHelper.addToConfig(serverInfo);
     }
 
     public static void removeServer(String name) {
@@ -37,7 +36,6 @@ public class ServerHelper {
         }
 
         getServers().remove(name);
-        ConfigHelper.removeFromConfig(name);
     }
 
     public static Map<String, ServerInfo> getServers() {
